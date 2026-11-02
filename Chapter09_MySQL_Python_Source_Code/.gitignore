@@ -1,0 +1,16 @@
+# Credentials: never commit these files
+.env
+.streamlit/secrets.toml
+
+# Virtual environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
